@@ -38,23 +38,23 @@ body::after {
   height: 100vh;
 }
 
-.card {
+main {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 350px;
-  height: 400px;
+  height: 375px;
   background-color: #fff;
   border-radius: 15px;
   overflow: hidden;
   z-index: 10000;
   box-shadow: 0 15px 50px rgba(0, 0, 0, 0.25);
 }
-.card .img {
+main .img {
   position: relative;
 }
-.card .profile {
+main .profile {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -62,37 +62,37 @@ body::after {
   border: 5px solid #fff;
   border-radius: 50%;
 }
-.card hr {
+main hr {
   position: absolute;
   bottom: 0;
   width: 100%;
-  color: hsl(0deg, 0%, 59%);
+  background-color: hsl(0deg, 0%, 59%);
   opacity: 50%;
 }
-.card .info {
+main .info {
   position: absolute;
   bottom: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: 127px;
+  height: 110px;
   text-align: center;
 }
-.card .info h2 {
+main .info h1 {
   margin-bottom: 10px;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
 }
-.card .info h2 span {
+main .info h1 span {
   margin-left: 5px;
   color: hsl(227deg, 10%, 46%);
   font-weight: normal;
 }
-.card .info p {
+main .info p {
   color: hsl(227deg, 10%, 46%);
   font-size: 1.6rem;
 }
-.card .stats {
+main .stats {
   position: absolute;
   bottom: 0;
   display: grid;
@@ -101,25 +101,25 @@ body::after {
   width: 100%;
   height: 20%;
 }
-.card .stats .first,
-.card .stats .second,
-.card .stats .third {
+main .stats .first,
+main .stats .second,
+main .stats .third {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   grid-row: 1/2;
 }
-.card .stats .first h3,
-.card .stats .second h3,
-.card .stats .third h3 {
-  font-size: 18px;
+main .stats .first h2,
+main .stats .second h2,
+main .stats .third h2 {
+  font-size: 1.8rem;
   font-family: "Kumbh Sans", sans-serif;
 }
-.card .stats .first p,
-.card .stats .second p,
-.card .stats .third p {
-  margin-top: 3px;
+main .stats .first p,
+main .stats .second p,
+main .stats .third p {
+  margin-top: 2px;
   color: hsl(227deg, 10%, 46%);
   font-family: "Kumbh Sans", sans-serif;
   letter-spacing: 1.5px;
